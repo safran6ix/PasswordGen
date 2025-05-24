@@ -39,6 +39,7 @@ input {
     border: 2px solid orangered;
     outline: none;
     font-size: 20px;
+    cursor: pointer;
 }
 
 input::placeholder {
@@ -62,5 +63,5 @@ input::placeholder {
 
 .btn:hover {
     color: white;
-    background-color: black;
+    background-color: rgb(203, 55, 1);
 }
