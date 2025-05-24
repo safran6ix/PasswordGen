@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+<div class="container">
+    <h2>Generate your Password</h2>
+    <input id="password" type="text" name="" placeholder="Password" readonly>
+    <div class="btns">
+        <div class="btn" onclick="genPassword()"> Generate </div>
+        <a class="btn" onclick="copyPassword()">Copy</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
